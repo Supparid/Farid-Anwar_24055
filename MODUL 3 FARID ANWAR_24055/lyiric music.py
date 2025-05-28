@@ -2,7 +2,7 @@ import tkinter as tk
 import time
 from threading import Thread
 
-# Lirik lagu "505" (Arctic Monkeys)
+# ingput Lirik 
 lirik = [
     "But I crumble completely when you cry",
     "It seems like once again you've had to greet me with goodbye",
@@ -91,7 +91,7 @@ class KaraokeApp:
             self.label.config(text=teks[:i])
             time.sleep(0.08)
 
-# Jalankan aplikasi
+# output runnnya
 if __name__ == "__main__":
     root = tk.Tk()
     app = KaraokeApp(root)
